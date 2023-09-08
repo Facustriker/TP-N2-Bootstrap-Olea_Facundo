@@ -1,0 +1,89 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+#contenedorNombreYNavegacion{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+#contenedorNavegacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#contenedorTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#imagenChaqueta{
+    width: 460px;
+    height: 620px;
+}
+
+#contenedorTextoyCarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lineaDecorada{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(0, 82, 164);
+}
+
+#titulo{
+    font-family: 'Lucida Sans';
+}
+
+#precio{
+    color: green;
+    font-weight: 900px;
+    font-family: 'Gill Sans';
+    font-size: 35px;
+}
+
+#descripcion{
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+}
+
+#botonCarrito{
+    height: 40px;
+    width: 180px;
+    border-radius: 4px;
+    background-color: rgb(0, 82, 164);
+    color: white;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+#footer{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+#contenedorInformacionContacto{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
